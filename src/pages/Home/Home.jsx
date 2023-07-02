@@ -6,6 +6,7 @@ import cvlogo from "../../images/resume24.png";
 import location from "../../images/location.png";
 import "./Home.css";
 import Professionalism from "../Professionalism/Professionalism";
+import About from "../About/About";
 function Home() {
   return (
     <div>
@@ -76,6 +77,9 @@ function Home() {
       <p className="text-slate-500 text-xl ml-28">Front-end developer.</p>
       <div className="proflism ml-28 mt-12">
       <Professionalism/>
+      </div>
+      <div className="Aboutsection ml-28">
+        <About/>
       </div>
       
 
