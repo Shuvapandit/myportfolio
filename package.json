@@ -12,6 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-wavify": "^1.8.3",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {

@@ -7,6 +7,7 @@ import location from "../../images/location.png";
 import "./Home.css";
 import Professionalism from "../Professionalism/Professionalism";
 import About from "../About/About";
+import Footer from "../Footer/Footer";
 function Home() {
   return (
     <div>
@@ -67,23 +68,22 @@ function Home() {
               <img src={location}></img>
             </div>
             <div>
-              <p  className="text-base">Dhaka,Bangladesh</p>
+              <p className="text-base">Dhaka,Bangladesh</p>
             </div>
           </div>
-         
         </div>
-        
       </div>
       <p className="text-slate-500 text-xl ml-28">Front-end developer.</p>
       <div className="proflism ml-28 mt-12">
-      <Professionalism/>
+        <Professionalism />
       </div>
       <div className="Aboutsection ml-28">
-        <About/>
+        <About />
       </div>
-      
-
-    
+      <div class="border-b-2 border-slate-300 ml-28 mr-20"></div>
+      <div className="footersection mt-5 bottom-0 ">
+        <Footer/>
+      </div>
     </div>
   );
 }
