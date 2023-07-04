@@ -82,7 +82,7 @@ function Home() {
       </div>
       <div class="border-b-2 border-slate-300 ml-28 mr-20"></div>
       <div className="footersection mt-5 bottom-0 ">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
