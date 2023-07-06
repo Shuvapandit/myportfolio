@@ -8,6 +8,7 @@ import "./Home.css";
 import Professionalism from "../Professionalism/Professionalism";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
+import Teach from "../Teach/Teach";
 function Home() {
   return (
     <div>
@@ -80,7 +81,11 @@ function Home() {
       <div className="Aboutsection ml-28">
         <About />
       </div>
+    {/*   hr line */} 
       <div class="border-b-2 border-slate-300 ml-28 mr-20"></div>
+      <div className="TeachSection ml-28">
+        <Teach/>
+      </div>
       <div className="footersection mt-5 bottom-0 ">
         <Footer />
       </div>

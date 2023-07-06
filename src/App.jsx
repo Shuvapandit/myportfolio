@@ -14,7 +14,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="font-serif">
       {isLoading ? (
         <Spinner />
       ) : (

@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-<p className='text-base font-semibold'>About</p>
+<p className='text-xl font-semibold font-serif '>About</p>
 <div className='text-justify mr-16'>
 <p className='mb-3'>As a skilled and experienced front-end developer, I specialize in creating user-friendly and visually appealing web applications. My expertise includes HTML, CSS, C, C++, Bootstrap, Tailwind, JavaScript, and React JS. With a proven track record of building complex web interfaces that are both responsive and functional, I am passionate about delivering exceptional user experiences.</p>
 <p className='mb-3'>In addition to my front-end development skills, I am also comfortable with popular web development frameworks and tools such as Firebase, React Router, MongoDB, REST API, Node JS, DaisyUI, and Express JS. I have experience working with these technologies to create dynamic web applications that are scalable and secure.</p>
