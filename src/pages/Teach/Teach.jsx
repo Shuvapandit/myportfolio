@@ -83,7 +83,7 @@ function Teach() {
         
         <div className='2 ml-96'>
 
-        <p className="text-slate-500 text-lg mb-4">Javascript Ui.</p>
+        <p className="text-slate-500 text-lg mb-4">Javascript Ui</p>
         <div className='flex flex-row mb-3'>
             <div>
 <img src={react} width='25' height='25' />
@@ -108,12 +108,12 @@ function Teach() {
                 Next js
             </div>
         </div>
-        <p className="text-slate-500 text-lg mb-4">CSS Pre-processors</p>
+        <p className="text-slate-500 text-lg mt-14 mb-4">CSS Pre-processors</p>
         <div className='flex flex-row'>
             <div>
 <img src={scss}/>
             </div>
-            <div>
+            <div className='ml-2'>
                 SCSS
             </div>
         </div>
