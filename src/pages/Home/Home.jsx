@@ -9,6 +9,7 @@ import Professionalism from "../Professionalism/Professionalism";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Teach from "../Teach/Teach";
+import Contact from "../Contact/Contact";
 function Home() {
   return (
     <div>
@@ -86,8 +87,12 @@ function Home() {
       <div className="TeachSection ml-28">
         <Teach/>
       </div>
-         {/*   hr line */} 
-         <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div>
+         {/*   hr line */}
+         <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div> 
+         <div className="contact ml-28">
+          <Contact/>
+         </div>
+        
       <div className="footersection mt-5 mbottom ">
         <Footer />
       </div>
