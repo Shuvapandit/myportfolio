@@ -10,6 +10,8 @@ import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Teach from "../Teach/Teach";
 import Contact from "../Contact/Contact";
+import Map from "../Map/Map";
+
 function Home() {
   return (
     <div>
@@ -89,10 +91,13 @@ function Home() {
       </div>
          {/*   hr line */}
          <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div> 
-         <div className="contact ml-28">
+         <div className="contact ml-28 mb-7">
           <Contact/>
          </div>
+        <div className="mapsection">
+        <Map/> 
         
+        </div>
       <div className="footersection mt-5 mbottom ">
         <Footer />
       </div>
