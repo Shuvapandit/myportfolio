@@ -11,6 +11,7 @@ import Footer from "../Footer/Footer";
 import Teach from "../Teach/Teach";
 import Contact from "../Contact/Contact";
 import Map from "../Map/Map";
+import Credentials from "../Credentials/Credentials";
 
 function Home() {
   return (
@@ -88,6 +89,11 @@ function Home() {
       <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div>
       <div className="TeachSection ml-28">
         <Teach/>
+      </div>
+      {/*   hr line */} 
+      <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div>
+      <div className="credentialsection ml-28">
+        <Credentials/>
       </div>
          {/*   hr line */}
          <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div> 
