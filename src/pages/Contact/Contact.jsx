@@ -3,14 +3,8 @@ import React from "react";
 function Contact() {
   return (
     <div className="mt-6 ">
-      <p className="text-center text-2xl font-semibold">GET IN TOUCH!</p>
-      <p className="text-center terxt-base ">
-        Please email at{" "}
-        <a className="text-red-600" href="mailto:chakrabortyshuva216@gmail.com">
-          chakrabortyshuva216@gmail.com{" "}
-        </a>{" "}
-        for any business queries
-      </p>
+  
+     
 
       {/* From start */}
       <form

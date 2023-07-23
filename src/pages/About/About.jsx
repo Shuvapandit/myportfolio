@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
 <p className='text-xl font-semibold font-serif '>About</p>
-<div className='text-justify mr-16' >
+<div className='text-justify mr-16 ' >
 <p className='mb-3 '>As a skilled and experienced front-end developer, I specialize in creating user-friendly and visually appealing web applications. My expertise includes HTML, CSS, C, C++, Bootstrap, Tailwind, JavaScript, and React JS. With a proven track record of building complex web interfaces that are both responsive and functional, I am passionate about delivering exceptional user experiences.</p>
 <p className='mb-3 '>In addition to my front-end development skills, I am also comfortable with popular web development frameworks and tools such as Firebase, React Router, MongoDB, REST API, Node JS, DaisyUI, and Express JS. I have experience working with these technologies to create dynamic web applications that are scalable and secure.</p>
 <p className='mb-3'>I am proficient in using development tools like VSCode, GitHub, Figma, Chrome DevTool, Heroku, and Netlify, which helps me to streamline my development process and deliver high-quality work on time. I am also familiar with Oracle and LaTeX, which demonstrates my diverse range of skills and interests beyond just front-end development.</p>

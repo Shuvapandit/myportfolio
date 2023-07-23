@@ -1,7 +1,18 @@
 .bgimgwh{
     width: 100%;
     height: 55vh;
+    position: relative;
 }
 .mbottom{
     margin-bottom: -20px;
 }
+ 
+.navtop{
+    margin-top: -300px;
+    
+}
+
+  
+  
+  /* The navbar */
+  
