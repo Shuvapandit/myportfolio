@@ -19,6 +19,7 @@ function App() {
         <Spinner />
       ) : (
         /* Render your main content here */
+        
         <div>
           <Home></Home>
         </div>

@@ -13,6 +13,7 @@ import Contact from "../Contact/Contact";
 import Map from "../Map/Map";
 import Credentials from "../Credentials/Credentials";
 import Services from "../Services/Services";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
@@ -127,7 +128,13 @@ function Home() {
         </div>
        </div>
          {/*   hr line */}
-         <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div> 
+         <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div>
+         <div className="fprojects mt-6">
+          <Projects/>
+
+         </div>
+          {/*   hr line */}
+          <div class="border-b-2 border-slate-300 mt-9 ml-28 mr-20"></div> 
          <div className="contact " id='contact'>
          <p className="text-center text-2xl font-semibold mt-5">GET IN TOUCH!</p>
          <p className="text-center terxt-base ">
