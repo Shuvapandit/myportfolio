@@ -1,18 +1,27 @@
-.bgimgwh{
-    width: 100%;
-    height: 55vh;
-    position: relative;
+.bgimgwh {
+  width: 100%;
+  height: 55vh;
+  position: relative;
 }
-.mbottom{
-    margin-bottom: -20px;
-}
- 
-.navtop{
-    margin-top: -300px;
-    
+.mbottom {
+  margin-bottom: -20px;
 }
 
-  
-  
-  /* The navbar */
-  
+.navtop {
+  margin-top: -300px;
+}
+@media only screen and (max-width: 600px) {
+  .bgimgwh {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+  }
+  .mbottom {
+    margin-bottom: -20px;
+  }
+  .navtop {
+    margin-top: -135px;
+  }
+}
+
+/* The navbar */

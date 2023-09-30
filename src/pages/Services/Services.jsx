@@ -5,7 +5,7 @@ import reactjs from "../../images/servicesimg/reactjs.png";
 function Services() {
   return (
     <div className="mt-4">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  lg:gap-3">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-3  ">
         <div className="gd1">
           <div class="card w-80  bg-base-100 shadow-2xl hover:bg-blue-50 ">
             <figure class="px-10 pt-10">

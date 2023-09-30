@@ -14,7 +14,7 @@ function Teach() {
   return (
     <div>
       <p className="text-xl font-semibold font-serif mt-3">Teach</p>
-      <div className="main flex flex-row">
+      <div className="main lg:flex lg:flex-row grid grid-cols-1 sm:grid sm:grid-cols-1">
         <div className="1 ">
           <p className="text-slate-500 text-lg mb-4">Languages</p>
           <div className="flex flex-row mb-3">
@@ -62,7 +62,7 @@ function Teach() {
             <div className="ml-2">Tailwind</div>
           </div>
         </div>
-        <div className="2 ml-96">
+        <div className="2 lg:ml-96">
           <p className="text-slate-500 text-lg mb-4">Javascript Ui</p>
           <div className="flex flex-row mb-3">
             <div>
