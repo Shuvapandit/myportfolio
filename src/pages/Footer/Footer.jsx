@@ -14,7 +14,7 @@ function Footer() {
         </div>
         <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a
-            href="https://www.linkedin.com/in/shuva-chakraborty-7aa59818a/"
+            href="https://www.linkedin.com/in/shuvacb/"
             target="_blank"
           >
             <img src={linkedin}></img>

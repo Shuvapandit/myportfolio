@@ -24,8 +24,8 @@ function Home() {
         <div className="named flex flex-row">
           {/*  nav start */}
           <div className=" navtop ml-2 ">
-            <div class="navbar-start ">
-              <div class="dropdown">
+            <div class="navbar-start  ">
+              <div class="dropdown ">
                 <label tabindex="0" class="btn  btn-neutral  btn-circle ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
